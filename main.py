@@ -311,7 +311,7 @@ def Get_Session_ID(ids):
     while (session_id in ids):
         session_id = ''.join(random.choices(string.ascii_uppercase + string.digits, k=15))
 
-    return session_id
+    return 'TEXT-' + session_id
 
 
 def Is_Valid_Name(name):
