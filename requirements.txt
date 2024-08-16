@@ -1,0 +1,8 @@
+st_social_media_links
+oauth2client
+streamlit
+requests
+streamlit-keyup
+gspread
+shapely
+pandas
